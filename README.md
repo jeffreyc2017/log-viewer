@@ -2,11 +2,11 @@
 
 ## Description
 
-info-display is a simple npm library that provides utilities for logging messages and displaying them in a customizable log viewer component for React applications.
+react-info-display is a simple npm library that provides utilities for logging messages and displaying them in a customizable log viewer component for React applications.
 
 ## Installation
 
-You can install info-display via npm:
+You can install react-info-display via npm:
 
 ```bash
 npm install react-info-display
