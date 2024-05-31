@@ -9,7 +9,7 @@ info-display is a simple npm library that provides utilities for logging message
 You can install info-display via npm:
 
 ```bash
-npm install info-display
+npm install react-info-display
 ```
 
 ## Usage
