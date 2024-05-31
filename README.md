@@ -109,7 +109,7 @@ export default App;
 
 ## Contribution
 
-Contributions are welcome! Feel free to open issues or submit pull requests on [GitHub](https://github.com/yourusername/info-display).
+Contributions are welcome! Feel free to open issues or submit pull requests.
 
 ## License
 
