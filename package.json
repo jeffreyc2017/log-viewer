@@ -1,8 +1,9 @@
 {
   "name": "react-info-display",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "private": false,
   "description": "A React component for displaying information to end users.",
+  "license": "MIT",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "repository": {

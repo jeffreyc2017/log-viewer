@@ -1,4 +1,4 @@
-# info-display
+# react-info-display
 
 ## Description
 
