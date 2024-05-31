@@ -11,9 +11,9 @@ const App: React.FC = () => {
     displayer.subscribe(logCallback);
 
     // Example logs
-    displayer.log("Log message 1");
-    displayer.log("Log message 2");
-    displayer.log("Log message 3");
+    displayer.add("message 1");
+    displayer.add("message 2");
+    displayer.add("message 3");
 
     return () => {
       displayer.unsubscribe(logCallback);

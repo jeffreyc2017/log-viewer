@@ -4,7 +4,7 @@ class Displayer {
   private messages: string[] = [];
   private callbacks: MsgCallback[] = [];
 
-  log(message: string) {
+  add(message: string) {
     this.messages.push(message);
     this.notify();
   }

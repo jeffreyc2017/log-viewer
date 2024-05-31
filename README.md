@@ -19,19 +19,36 @@ npm install react-info-display
 The Displayer class allows you to log messages and subscribe to receive updates whenever a new message is logged.
 
 ```typescript
-import InfoDisplay from "info-display";
-import displayer from "./msgUtils";
+import { InfoDisplay, displayer } from "react-info-display";
 
-// Log a message
-displayer.log("Hello, world!");
+// Add a message
+displayer.add("Hello, world!");
 
 const [messages, setMessages] = useState<string[]>([]);
-// Subscribe to log updates
+// Subscribe to messages updates
 const msgCallback = (messages: string[]) => setMessages([...messages]);
 displayer.subscribe(msgCallback);
 
 // Unsubscribe from log updates
 displayer.unsubscribe(msgCallback);
+
+return (
+  <div className="app">
+    <h1>Info Display Example</h1>
+    <InfoDisplay
+      messages={messages}
+      position={{ bottom: "10px", left: "10px", right: "20px" }} // Custom position
+      size={{ width: "80%", height: "300px" }} // Custom size
+      style={{
+        // Custom styles
+        backgroundColor: "#e0e0e0",
+        fontFamily: "Courier New, monospace",
+        fontSize: "14px",
+        color: "#333",
+      }}
+    />
+  </div>
+);
 ```
 
 ### InfoDisplay Component
