@@ -1,6 +1,6 @@
 {
   "name": "react-info-display",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "private": false,
   "description": "A React component for displaying information to end users.",
   "license": "MIT",
@@ -8,7 +8,7 @@
   "types": "build/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jeffreyc2017/info-display.git"
+    "url": "https://github.com/jeffreyc2017/react-info-display.git"
   },
   "dependencies": {
     "react": "^18.3.1",
